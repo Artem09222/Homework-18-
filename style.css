@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+
+.menu-item {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: blueviolet;
+    width: 25%;
+    border: 2px solid yellowgreen;
+    font-family: 'Edu SA Beginner', cursive;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    background-color: rgb(192, 162, 122);
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    margin-top: 200px;
+}
+
+.menu-item2 {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: blanchedalmond;
+    width: 25%;
+    border: 2px solid palevioletred;
+    font-family: 'Edu SA Beginner', cursive;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu-item2:hover {
+    background-color: burlywood;
+}
+
+.menu3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    margin-top: 200px;
+}
+
+.menu-item3 {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: lavenderblush;
+    width: 25%;
+    border: 2px solid mediumslateblue;
+    font-family: 'Edu SA Beginner', cursive;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu-item3:hover {
+    background-color: lightgray;
+    color: midnightblue;
+}
